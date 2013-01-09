@@ -1,0 +1,19 @@
+<?php
+
+function lib_tmhoauth_libraries_info() {
+  return array(
+    'tmhoauth' => array(
+      'name' => 'OAuth by TheMattHarris',
+      'vendor url' => 'https://github.com/themattharris',
+      'download url' => 'https://github.com/themattharris/tmhOAuth',
+      'version arguments' => array(
+        'file' => 'tmhOAuth.php',
+        'pattern' => '/@version (\d+.\d+)/',
+      ),
+      'files' => array(
+        'tmhOAuth.php',
+        'tmhUtilities.php',
+      ),
+    ),
+  );
+}

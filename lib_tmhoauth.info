@@ -1,0 +1,6 @@
+name = OAuth by TheMattHarris
+description = "Integration with the OAuth module designed by TheMattHarris of GitHub."
+package = Libraries Integration
+core = 7.x
+
+dependencies[] = libraries
